@@ -92,6 +92,10 @@ p {
   color: #999187;
 }
 
+.about-me-text {
+  margin: 15px 0px 15px 0px;
+}
+
 /* Animated progress bar */
 
 .skill-name-programming {
@@ -187,7 +191,11 @@ p {
   }
 }
 
-/* Other */
+/* Other section */
+
+.other {
+  display: flex;
+}
 
 .car {
   fill: #7d6958;
@@ -201,10 +209,133 @@ p {
   margin: auto;
 }
 
-.test {
+/* Interests section */
+
+.interests {
   display: flex;
-  
+  margin-top: 15px;
 }
+
+.singer {
+  fill: #7d6958;
+  width: 65px;
+  height: 65px;
+  margin: auto;
+}
+
+.art {
+  fill: #7d6958;
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  padding-right: 7px;
+}
+
+.gym path {
+  fill: #7d6958;
+}
+
+.gym {
+  width: 85px;
+  height: 85px;
+  margin: auto;
+}
+
+/* Profile information section */
+
+.profile-section {
+  display: flex;
+}
+
+.profilepicture {
+  border-radius: 50%;
+  width: 180px;
+  border: 4px solid white;
+  margin: 20px 20px 20px 40px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-weight: lighter;
+  margin: auto;
+}
+
+.contact-information-section {
+  margin: 10px 10px 10px 0px;
+}
+
+.contact-container {
+  width: 260px;
+}
+
+.contact-information {
+  color: white;
+  margin: 10px;
+  padding-top: 2px;
+  text-align: left;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.phone {
+  fill: white;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 7px;
+}
+
+.mail {
+  fill: white;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+.location {
+  fill: white;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+.home {
+  fill: white;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+.linkedin {
+  fill: white;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+.github {
+  fill: white;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+
+
 
 
 

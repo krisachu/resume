@@ -5,17 +5,37 @@ import About from "./components/About";
 import ProgrammingSkill from "./components/ProgrammingSkill";
 import SoftwareSkill from "./components/SoftwareSkill";
 import Language from "./components/Language";
+import Contact from "./components/Contact";
 import experience from "./data/experience";
 import education from "./data/education";
 import programming from "./data/programming";
 import software from "./data/software";
 import language from "./data/language";
 import { ReactComponent as Car } from "./images/car.svg";
+import { ReactComponent as Singer } from "./images/singer.svg";
+import { ReactComponent as Art } from "./images/art.svg";
+import { ReactComponent as Gym } from "./images/gym.svg";
+import profilepicture from "./images/profilepicture.jpg";
+import contact from "./data/contact";
 
 const App = () => {
   return (
     <div className="grid-container">
-      <div className="item-top">About</div>
+      <div className="item-top">
+        <div className="profile-section">
+          <img
+            src={profilepicture}
+            alt="profilepicture"
+            className="profilepicture"
+          />
+          <h1>Kristina Wiik</h1>
+          <div className="contact-information-section">
+            {contact.map((contact) => (
+              <Contact key={contact.id} contact={contact} />
+            ))}
+          </div>
+        </div>
+      </div>
       <div className="item-left">
         <div>
           <h2>PROGRAMMING SKILLS</h2>
@@ -54,14 +74,21 @@ const App = () => {
         <div>
           <h2>OTHER</h2>
           <hr className="hr-item-left"></hr>
-          <div className="test">
+          <div className="other">
             <Car className="car" />
-            <p className="car-text">Driving licence,<br></br>category B, 2008</p>
+            <p className="car-text">
+              Driving licence,<br></br>category B, 2008
+            </p>
           </div>
         </div>
         <div>
           <h2>INTERESTS</h2>
           <hr className="hr-item-left"></hr>
+          <div className="interests">
+            <Singer className="singer" />
+            <Art className="art" />
+            <Gym className="gym" />
+          </div>
         </div>
       </div>
       <div className="item-right">
