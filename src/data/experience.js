@@ -26,9 +26,9 @@ const experience = [
     },
     {
         id: 4,
-        title: 'Airbnb Host',
+        title: 'Host',
         description: "Managed customers' needs and maintained the cleanliness of the apartment.",
-        organization: '',
+        organization: 'Airbnb',
         startTime: '8/2014',
         endTime: '10/2015',
     },

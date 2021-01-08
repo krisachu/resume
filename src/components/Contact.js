@@ -15,7 +15,7 @@ const Contact = ({ contact }) => {
       <h2 className="contact-information">{contact.email}</h2>
       <Location className="location" />
       <h2 className="contact-information">{contact.location}</h2>
-      <Home className="home" />
+      {/* <Home className="home" />
       <h2 className="contact-information">
         <a target="_blank" href="www.kristinawiik.com">
           {contact.website}
@@ -26,7 +26,7 @@ const Contact = ({ contact }) => {
         <a target="_blank" href="www.linkedin.com/in/wiikkristina">
           {contact.linkedin}
         </a>
-      </h2>
+      </h2> */}
       <Github className="github" />
       <h2 className="contact-information">
         <a target="_blank" href="www.github.com/krisachu">

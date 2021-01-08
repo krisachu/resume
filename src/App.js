@@ -28,7 +28,10 @@ const App = () => {
             alt="profilepicture"
             className="profilepicture"
           />
+          <div className="name">
           <h1>Kristina Wiik</h1>
+          <h4>Web Development</h4>
+          </div>
           <div className="contact-information-section">
             {contact.map((contact) => (
               <Contact key={contact.id} contact={contact} />
