@@ -1,3 +1,3 @@
-# Personal Resume
+## Personal Resume
 
-![](/src/images/resume.pdf)
+![](/src/images/resume.png)
