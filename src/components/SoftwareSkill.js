@@ -17,7 +17,7 @@ const SoftwareSkill = ({ software }) => {
           return (
             <span
               className={`dot ${filledDot && hasLoaded ? " filledDot" : ""}`}
-              style={{ animationDelay: `${i / 4}s` }}>
+              style={{ animationDelay: `${i / 4}s` } } key={i}>
             </span>
           );
         })}

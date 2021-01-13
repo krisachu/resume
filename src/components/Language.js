@@ -18,7 +18,7 @@ const Language = ({ language }) => {
           return (
             <Star
               className={`star ${filledStar && hasLoaded ? " filledStar" : ""}`}
-              style={{ animationDelay: `${i / 4}s` }}>
+              style={{ animationDelay: `${i / 4}s` }} key={i}>
             </Star>
           );
         })}
